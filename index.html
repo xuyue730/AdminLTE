@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap-daterangepicker/daterangepicker.css">
     <!-- bootstrap wysihtml5 - text editor -->
     <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+    <link rel="stylesheet" href="dist/css/public.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -164,80 +165,134 @@
                     <li class="active">Dashboard</li>
                 </ol>
             </section>
-            <!-- Main content -->
             <section class="content">
-                <!-- Small boxes (Stat box) -->
                 <div class="row">
                     <div class="col-lg-3 col-xs-6">
-                        <!-- small box -->
-                        <div class="small-box bg-aqua">
-                            <div class="inner">
-                                <h3>150</h3>
-                                <p>New Orders</p>
-                            </div>
-                            <div class="icon">
-                                <i class="ion ion-bag"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ./col -->
+					    <div class="info-box">
+					        <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+					        <div class="info-box-content">
+					        	<span class="info-box-text">昨日发博量</span>
+					            <span class="info-box-number">90546552</span>
+					            <span class="description-percentage text-green"><i class="fa fa-caret-up"></i> 17%</span>
+					            <span class="description-percentage text-green" style="font-size: 12px;">同比上周</span>
+					        </div>
+					    </div>
+					</div>
                     <div class="col-lg-3 col-xs-6">
-                        <!-- small box -->
-                        <div class="small-box bg-green">
-                            <div class="inner">
-                                <h3>53<sup style="font-size: 20px">%</sup></h3>
-                                <p>Bounce Rate</p>
-                            </div>
-                            <div class="icon">
-                                <i class="ion ion-stats-bars"></i>
-                            </div>
-                        </div>
+                       <div class="info-box">
+						    <span class="info-box-icon bg-red"><i class="fa fa-google-plus"></i></span>
+						    <div class="info-box-content">
+					        	<span class="info-box-text">昨日互动量
+				        			<i class="fa fa-exclamation-circle text-yellow"></i>
+					        	</span>
+					            <span class="info-box-number">3306</span>
+					            <span class="description-percentage text-yellow"><i class="fa fa-caret-left"></i> 0%</span>
+					            <span class="description-percentage text-yellow" style="font-size: 12px;">同比上周</span>
+					        </div>
+						</div>
                     </div>
-                    <!-- ./col -->
                     <div class="col-lg-3 col-xs-6">
-                        <!-- small box -->
-                        <div class="small-box bg-yellow">
-                            <div class="inner">
-                                <h3>44</h3>
-                                <p>User Registrations</p>
-                            </div>
-                            <div class="icon">
-                                <i class="ion ion-person-add"></i>
-                            </div>
-                        </div>
+                        <div class="info-box">
+						    <span class="info-box-icon bg-green"><i class="ion ion-ios-cart-outline"></i></span>
+						    <div class="info-box-content">
+					        	<span class="info-box-text">昨日发布账号</span>
+					            <span class="info-box-number">198000</span>
+					            <span class="description-percentage text-green"><i class="fa fa-caret-up"></i> 20%</span>
+					            <span class="description-percentage text-green" style="font-size: 12px;">同比上周</span>
+					        </div>
+					    </div>
                     </div>
-                    <!-- ./col -->
                     <div class="col-lg-3 col-xs-6">
-                        <!-- small box -->
-                        <div class="small-box bg-red">
-                            <div class="inner">
-                                <h3>65</h3>
-                                <p>Unique Visitors</p>
-                            </div>
-                            <div class="icon">
-                                <i class="ion ion-pie-graph"></i>
-                            </div>
-                        </div>
+                       <div class="info-box">
+						    <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
+						    <div class="info-box-content">
+					        	<span class="info-box-text">昨日粉丝增量</span>
+					            <span class="info-box-number">45231</span>
+					            <span class="description-percentage text-red"><i class="fa fa-caret-down"></i> 18%</span>
+					            <span class="description-percentage text-green" style="font-size: 12px;">同比上周</span>
+					        </div>
+						</div>
                     </div>
-                    <!-- ./col -->
                 </div>
-                <!-- /.row -->
-                <!-- Main row -->
                 <div class="row">
-                    <!-- Left col -->
-                    <section class="col-lg-7 connectedSortable">
-
-                    </section>
-                    <!-- /.Left col -->
-                    <!-- right col (We are only adding the ID to make the widgets sortable)-->
-                    <section class="col-lg-5 connectedSortable">
-						
-                    </section>
-                    <!-- right col -->
+                    <div class="col-lg-3 col-xs-6">
+					    <div class="info-box">
+					        <span class="info-box-icon bg-light-blue"><i class="ion-ios-chatbubble-outline"></i></span>
+					        <div class="info-box-content">
+					        	<span class="info-box-text">昨日活跃度</span>
+					            <span class="info-box-number">2513</span>
+					            <span class="description-percentage text-green"><i class="fa fa-caret-up"></i> 17%</span>
+					            <span class="description-percentage text-green" style="font-size: 12px;">同比上周</span>
+					        </div>
+					    </div>
+					</div>
+                    <div class="col-lg-3 col-xs-6">
+                       <div class="info-box">
+						    <span class="info-box-icon bg-navy"><i class="ion ion-ios-cloud-download-outline"></i></span>
+						    <div class="info-box-content">
+					        	<span class="info-box-text">监控账号数
+				        			<i class="fa fa-exclamation-circle text-yellow"></i>
+					        	</span>
+					            <span class="info-box-number">93450</span>
+					            <span class="description-percentage text-aqua"><i class="fa fa-caret-left"></i> 0%</span>
+					            <span class="description-percentage text-aqua" style="font-size: 12px;">同比上周</span>
+					        </div>
+						</div>
+                    </div>
+                    <div class="col-lg-3 col-xs-6">
+                        <div class="info-box">
+						    <span class="info-box-icon bg-teal"><i class="ion ion-ios-pricetag-outline"></i></span>
+						    <div class="info-box-content">
+					        	<span class="info-box-text">昨日关停账号数</span>
+					            <span class="info-box-number">3</span>
+					            <span class="description-percentage text-green"><i class="fa fa-caret-up"></i> 20%</span>
+					            <span class="description-percentage text-green" style="font-size: 12px;">同比上周</span>
+					        </div>
+					    </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-6">
+                       <div class="info-box">
+						    <span class="info-box-icon bg-purple"><i class="ion ion-ios-people-outline"></i></span>
+						    <div class="info-box-content">
+					        	<span class="info-box-text">昨日新增账号数</span>
+					            <span class="info-box-number">9</span>
+					            <span class="description-percentage text-red"><i class="fa fa-caret-down"></i> 18%</span>
+					            <span class="description-percentage text-green" style="font-size: 12px;">同比上周</span>
+					        </div>
+						</div>
+                    </div>
                 </div>
-                <!-- /.row (main row) -->
-            </section>
-            <!-- /.content -->
+                <div class="row">
+				    <div class="col-md-12">
+					    <div class="nav-tabs-custom">
+					        <ul class="nav nav-tabs">
+					            <li class="active"><a href="#activity" data-toggle="tab" aria-expanded="true">发博量</a></li>
+					            <li class=""><a href="#timeline" data-toggle="tab" aria-expanded="false">互动量</a></li>
+					            <li class=""><a href="#settings" data-toggle="tab" aria-expanded="false">活跃度</a></li>
+					        </ul>
+					        <div class="tab-content">
+					            <div class="tab-pane active" id="activity">
+					            	<div class="row">
+        								<div class="col-md-8">
+					            			<div id="main1" style="width: 100%;height:400px;"></div>
+        								</div>
+        								<div class="col-md-4">
+					            			<div id="main4" style="width: 100%;height:400px;"></div>
+        								</div>
+        							</div>
+		                        </div>
+		                        <div class="tab-pane" id="timeline">
+									<div id="main2" style="width: 100%;height:400px;"></div>
+		                        </div>
+		                        <div class="tab-pane" id="settings">
+									<div id="main3" style="width: 100%;height:400px;"></div>
+		                        </div>
+		                    </div>
+			            </div>
+		            </div>
+                </div>
+	        </section>
+        <!-- /.content -->
         </div>
         <!-- /.content-wrapper -->
         <footer class="main-footer">
@@ -286,6 +341,96 @@
     <script src="dist/js/pages/dashboard.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="dist/js/demo.js"></script>
+    <script src="dist/js/echarts.min.js"></script>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main1'));
+        data = [["2000-06-05",116],["2000-06-06",129],["2000-06-07",135],["2000-06-08",86],["2000-06-09",73],["2000-06-10",85],["2000-06-11",73],["2000-06-12",68],["2000-06-13",92],["2000-06-14",130],["2000-06-15",245],["2000-06-16",139],["2000-06-17",115],["2000-06-18",111],["2000-06-19",309],["2000-06-20",206],["2000-06-21",137],["2000-06-22",128],["2000-06-23",85],["2000-06-24",94],["2000-06-25",71],["2000-06-26",106],["2000-06-27",84],["2000-06-28",93],["2000-06-29",85],["2000-06-30",73],["2000-07-01",83],["2000-07-02",125],["2000-07-03",107],["2000-07-04",82],["2000-07-05",44],["2000-07-06",72],["2000-07-07",106],["2000-07-08",107],["2000-07-09",66],["2000-07-10",91],["2000-07-11",92],["2000-07-12",113],["2000-07-13",107],["2000-07-14",131],["2000-07-15",111],["2000-07-16",64],["2000-07-17",69],["2000-07-18",88],["2000-07-19",77],["2000-07-20",83],["2000-07-21",111],["2000-07-22",57],["2000-07-23",55],["2000-07-24",60]];
+       	var valueList = data.map(function (item) {
+		    return item[1];
+		});
+       	var dateList = data.map(function (item) {
+		    return item[0];
+		});
+		option = {
+		    // Make gradient line here
+		    visualMap: [{
+		        show: false,
+		        type: 'continuous',
+		        seriesIndex: 0,
+		        min: 0,
+		        max: 400
+		    }],
+		    tooltip: {
+		        trigger: 'axis'
+		    },
+		    grid: [{
+		        width: '100%'
+		    }, {
+		        width: '100%'
+		    }],
+		    xAxis: [{
+		        data: valueList
+		    }],
+		    yAxis: [{
+		        splitLine: {show: false}
+		    }],
+		    series: [{
+		        type: 'line',
+		        showSymbol: false,
+		        data: valueList
+		    }]
+		};
+		var myChart4 = echarts.init(document.getElementById('main4'));
+		options = {
+		    tooltip: {
+		        trigger: 'item',
+		        formatter: "{a} <br/>{b}: {c} ({d}%)"
+		    },
+		    legend: {
+		        orient: 'vertical',
+		        x: 'left',
+		        data:['直接访问','邮件营销','联盟广告','视频广告','搜索引擎']
+		    },
+		    series: [
+		        {
+		            name:'访问来源',
+		            type:'pie',
+		            radius: ['50%', '70%'],
+		            avoidLabelOverlap: false,
+		            label: {
+		                normal: {
+		                    show: false,
+		                    position: 'center'
+		                },
+		                emphasis: {
+		                    show: true,
+		                    textStyle: {
+		                        fontSize: '30',
+		                        fontWeight: 'bold'
+		                    }
+		                }
+		            },
+		            labelLine: {
+		                normal: {
+		                    show: false
+		                }
+		            },
+		            data:[
+		                {value:335, name:'直接访问'},
+		                {value:310, name:'邮件营销'},
+		                {value:234, name:'联盟广告'},
+		                {value:135, name:'视频广告'},
+		                {value:1548, name:'搜索引擎'}
+		            ]
+		        }
+		    ]
+		};
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+        myChart4.setOption(options);
+    </script>
 </body>
 
 </html>

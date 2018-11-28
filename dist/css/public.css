@@ -1,0 +1,16 @@
+.body {
+    font-size: 12px;
+}
+/* 数据大盘 四块*/
+.info-box-text {
+    text-align: left;
+    font-size: 14px
+}
+.info-box-number {
+    display: block;
+    font-weight: 400;
+    font-size: 24px;
+}
+.info-box-content {
+    padding: 8px;
+}
