@@ -14,3 +14,20 @@
 .info-box-content {
     padding: 8px;
 }
+
+.treeview>a>span {
+    padding-left: 10px;
+}
+.treeview>a>i.fa {
+    text-align: center;
+}
+.checkBox {
+    text-align: center;
+    margin: 0;
+}
+.checkBox>label {
+    margin-bottom: 0;
+}
+.table-bordered th {
+    text-align: center;
+}
